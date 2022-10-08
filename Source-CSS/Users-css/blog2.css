@@ -1,197 +1,150 @@
-/* blog 2 */
-.blog-2 {
-    max-width: 100%;
-    width: 100%;
-    height: 800px;
-    overflow: hidden;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../Source-CSS/Public.css/grid.css">
+    <link rel="stylesheet" href="../Source-CSS/Public.css/body.css">
+    <link rel="stylesheet" href="../Source-CSS/Public.css/color.css">
+    <link rel="stylesheet" href="../Source-CSS/Users-css/blog2.css">
+    <title>Những Cuốn Sách Bạn Nên Đọc Một Lần</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light py-4 fixed-top">
+    <div class="container">
+      <a class="navbar-brand mr-5" href="#"><img src="../image/image-icon/logo.avif" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i id="bar" class="bi bi-list"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav menu">              
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: var(--red);">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          
+        </ul>
 
-.img-post {
-    width: 100%;
-    height: 800px;
-    background-size: cover;
-    overflow: hidden;
-}
+        <ul id="icons" class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-search"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-cart4"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-gear-fill"></i>
+                </a>
+            </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
 
-.blog-box {
-    position: absolute;
-    width: 80%;
-    height: 300px;
-    margin: 30px;
-    top: 35%;
-    left: 10%;
-    background-color: white;
-    opacity: 0.6;
-}
+  <section class="blog-2">
+    <div class="blog-box">
+          <h1>Những Cuốn Sách Bạn Nên Đọc Một Lần</h1>
+    </div>
+  </section>
 
-.blog-box h1 {
-    text-align: center;
-    margin: 10%;
-    font-size: 50px;
-    font-weight: bold;
-    color: var(--red2);
-}
+  <section class="blog-2-info">
+    <div class="info">
+      <img src="../image/image-background/blog-2-1.png" alt="">
+      <div class="info-content">
+        <div class="content-header">
+          Cho tôi xin một vé đi tuổi thơ - Nguyễn Nhật Ánh</h2>
+        </div>
+        <div class="content">
+            Với cuốn “Cho tôi xin một vé đi tuổi thơ” của Nguyễn Nhật Ánh
+            đã thổi hồn vào những nhân vật xuyên suốt trong câu chuyện của mình. Từ cậu cu Mùi muốn
+            tập tành làm “nhà cách mạng tí hon”, có trí mường tượng phong phú luôn muốn thay
+            đổi tất cả những điều tất yếu và nhàm chán trong cuộc sống thường ngày đến các triết lí
+            nghe có lúc ngô nghê, đôi khi lại đầy sâu sắc của những đứa trẻ chưa đi hết một phần 8 cuộc đời.
+        </div>
+      </div>
+    </div>
 
-/* blog-2-info-1 */
+    <div class="info-1">
+      <img src="../image/image-background/blog-2-2.jpg" alt="">
+      <div class="info-content">
+        <div class="content-header">
+          Mỗi lần vấp ngã là một lần Trưởng Thành
+        </div>
+        <div class="content">
+          “Mỗi lần vấp ngã là một lần Trưởng Thành” là cuốn sách hay về cuộc sống
+          với nội dung theo kiểu kể chuyện và phân tích. Đây là cuốn sách giúp bạn trưởng thành hơn
+          mà một lần vô tình ghé nhà sách, tôi bắt gặp tựa đề quá hay. Những câu chuyện trong đây
+          như một dẫn chứng cụ thể và sống động trong cuộc sống thường ngày của mỗi chúng ta, 
+          trong đó có tôi và bạn đấy."
+        </div>
+      </div>
+    </div>
 
-.blog-2-info {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 60px 100px;
-}
+    <div class="info-2">
+      <img src="../image/image-background/blog-2-3.png" alt="">
+      <div class="info-content">
+          <div class="content-header">
+            Tuổi Trẻ Đáng Giá Bao Nhiêu? - Rosie Nguyễn
+          </div>
+          <div class="content">
+            "Tuổi trẻ đáng giá bao nhiêu? được tác giả chia làm 3 phần: HỌC, LÀM, ĐI. 
+            Nhưng tôi thấy cuốn sách còn thể hiện một phần thứ tư nữa, đó là ĐỌC.Hãy đọc sách,
+            nếu bạn đọc sách một cách bền bỉ, sẽ đến lúc bạn bị thôi thúc không ngừng bởi ý muốn viết nên cuốn sách của riêng mình.
+            Nếu tôi còn ở tuổi đôi mươi, hẳn là tôi sẽ đọc Tuổi trẻ đáng giá bao nhiêu? nhiều hơn một lần.”
+          </div>
+      </div>
+    </div>
+  </section>
 
-.info,
-.info-1,
-.info-2 {
-    width: 100%;
-    box-shadow: 0 4px 10px #0000001f;
-    padding: 20px 20px 30px 20px;
-    margin-bottom: 50px;
-}
+  <footer>
+    <div class="shop-info">
+      <div class="container">
+        <div class="about-info">
+          <h3>ABOUT INFO</h3>
+          <p>We are a group of 4 with the theme of bookstore sales managers. Hope you guys support us.</p>
+          <p>
+            <i class="bi bi-geo-alt"></i> 
+            <span>Addresss:</span> IT3 UTC, Ha Noi VietNam
+          </p>
+          <p>
+            <i class="bi bi-envelope"></i> 
+            <span>Email:</span> no_email00000@gmail.com
+          </p>
+          <p>
+            <i class="bi bi-telephone"></i>
+            <span>Phone Number (tel):</span> 012 345 6789
+          </p>
+        </div>
+      </div>
+    </div>
 
-.info img {
-    box-shadow: 0 4px 10px #0000001f;
-    border-radius: 20px;
-}
-
-.info-content {
-    float: right;
-    width: 50%;
-    margin-left: 120px;
-    margin-top: 14%;
-    margin-right: 60px;
-    line-height: 30px;
-}
-
-.content-header {
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    font-style: italic;
-    color: #548FAB;
-}
-
-.content {
-    font-size: 18px;
-    text-align: justify;
-}
-
-/* blog-2-info-2 */
-.info-1 img {
-    margin-left: 50px;
-    box-shadow: 0 4px 10px #0000001f;
-    border-radius: 20px;
-}
-
-.info-1 > .info-content{
-    margin-top: 12%;
-    margin-right: 10px;
-    margin-left: 50px;
-}
-
-/* blog-2-info-3 */
-.info-2 img {
-    box-shadow: 0 4px 10px #0000001f;
-    border-radius: 20px;
-}
-
-.info-2 > .info-content{
-    margin-top: 5%;
-    margin-left: 120px;
-}
-
-/* Mobile */
-@media (max-width: 767px){
-      .blog-2 {
-            width: 100%;
-      }
-      .blog-box {
-            margin: 0;
-      }
-      .blog-box h1 {
-            font-size: 40px;
-      }
-
-      .info,
-      .info-1,
-      .info-2 {
-            box-shadow: none;
-      }
-
-      .info img {
-            width: 100%;
-      }
-
-      .info-content {
-            width: 350px;
-            margin-left: 0;
-            margin-right: -100px;
-            margin-bottom: 20px;
-      }
-
-      .info-1 img {
-            width: 100%;
-            margin-left: 0;
-      }
-
-      .info-1 > .info-content {
-            margin-left: 0;
-            margin-right: -100px;
-      }
-
-      .info-2 {
-            width: 100%;
-            margin-bottom: 350px;
-      }
-
-      .info-2 img {
-            width: 100%;
-      } 
-
-      .info-2 > .info-content {
-            margin-left: 0;
-      }
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1024px){
-      .blog-2 {
-            width: 100%;
-      }
-      .blog-box {
-            margin: 0;
-      }
-      .blog-box h1 {
-            font-size: 40px;
-      }
-      .info {
-            width: 100%;
-            padding-bottom: 65%;
-      }
-      .info-content {
-            width: 100%;
-            margin-left: 0;
-            margin-right: 0;
-            margin-top: 40px;
-      }
-      .info-1 {
-            width: 100%;
-            padding-bottom: 60%;
-      } 
-      .info-1 img {
-            width: 100%;
-            margin-left: 0;
-      }
-      .info-1 > .info-content {
-            margin-left: 0;
-            margin-right: 0;
-            margin-top: 40px;
-      }
-      .info-2 {
-            width: 100%;
-            padding-bottom: 55%;
-      }
-      .info-2 > .info-content {
-            margin-left: 0;
-      }
-}
+    <div class="content-creater">
+      <p>Copyright HasThemes | Built with Hồng Thái, Thùy Dương, Hoàng Duy, Huy Hoàng</p>
+    </div>
+  </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>
