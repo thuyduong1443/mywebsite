@@ -4,17 +4,15 @@ body {
 
 /* blog-3 */
 .blog-3 {
+    top: 0;
     max-width: 100%;
     width: 100%;
-    height: 750px;
-    overflow: hidden;
-}
-
-.img-post {
-    width: 100%;
     height: 800px;
+    background-image: url("https://thdshop.github.io/image/image-background/blog-3.png");
     background-size: cover;
-    opacity: 0.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -32,6 +30,7 @@ body {
     text-align: justify;
     width: 60%;
     margin: 0 auto;
+    margin-top: 20px;
     padding: 50px;
     line-height: 30px;
     font-size: 18px;
@@ -93,12 +92,8 @@ body {
         width: 100%;
     }
 
-    .img-post {
-        width: 100%;
-    }
-
     .header-post {
-        top: 30%;
+        font-size: 40px;
     }
 
     .about,
@@ -106,6 +101,10 @@ body {
         box-shadow: none;
         width: 100%;
         padding: 10px;
+    }
+
+    .about {
+        top: 10%;
     }
 
     .about-content {
