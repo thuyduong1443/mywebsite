@@ -1,0 +1,143 @@
+/* Background */
+.blog-post {
+      max-width: 100%;
+      width: 100%;
+      height: 800px;
+      overflow: hidden;
+}
+
+.background {
+      width: 100%;
+      height: 800px;
+      background-size: cover;
+      overflow: hidden;
+}
+
+.content {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+}
+
+.content h1 {
+      font-size: 100px;
+      font-weight: bold;
+}
+
+.content hr {
+      border-top: 3px solid black;
+}
+
+/* post-review */
+.post-container {
+      padding: 80px 0;
+      width: 45%;
+	margin: 0px auto;
+}
+
+.post-rv {
+      text-align: center;
+}
+
+.post-rv img {
+      border-radius: 50%;
+      height: 100px;
+      margin-bottom: 20px;
+}
+
+.post-rv p {
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+}
+
+/* blog-post info */
+.post-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      overflow: hidden;
+      padding: 60px 0 80px 0;
+}
+
+.read-post img {
+      padding: 20px 20px;
+      border-radius: 20px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.infor-content h4 {
+      font-size: 20px;
+      padding-top: 20px;
+      line-height: 27px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+.infor-btn {
+      text-decoration: none;
+      background-color: #FEF2E6;
+      border: none;
+      outline: none;
+      padding: 12px 48px;
+      border-radius: 50px;
+      cursor: pointer;
+      margin: 10px 100px;
+}
+
+.infor-btn:hover {
+      background-color: var(--red);
+      box-shadow: 0 4px 10px #0000001f;
+}
+
+/* post-end */
+.post-end {
+      width: 85%;
+      background-color: #FEF2E6;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 0 auto;
+      border-radius: 20px;
+      padding: 50px 0;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.post-end p {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      padding: 90px 50px 0 40px;
+      line-height: 40px;
+}
+
+.post-end img {
+      border-radius: 20px;
+      box-shadow: 0 4px 10px #0000001f;
+}
+
+@media (max-width: 767px) {
+      .blog-post {
+            width: 100%;
+      }
+      .background {
+            width: 100%;
+      }
+      .content h1 {
+            font-size: 70px;
+      }
+      .post-container {
+            width: 100%;
+      }
+      .post-info {
+            width: 100%;
+      }
+      .post-end {
+            padding-right: 0;
+            margin: 0 auto;
+            width: 100%;
+      }
+      .post-end img {
+            width: 85%;
+      }
+}

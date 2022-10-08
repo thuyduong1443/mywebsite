@@ -1,0 +1,113 @@
+/* Header */
+body {
+    box-sizing: border-box;
+    /* display: block;
+    /* font-family: "Work Sans", sans-serif; */
+}
+
+.navbar {
+    background-color: #fff;
+    top: 0;
+    right: 0;
+}
+
+.navbar-nav {
+    margin-left: 40px;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 18px;
+    line-height: 40px;
+    color: #5b5b5b;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: var(--red);
+}
+
+.menu .nav-item {
+    padding: 0 16px;
+}
+
+#icons .nav-item {
+    padding-left: 20px;
+}
+
+/* Mobile */
+
+.bg-light .navbar-toggler {
+    padding: 7px;
+    background-color: var(--pink);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    transition: 0.3s ease;
+}
+
+#navbarSupportedContent > ul.navbar-nav.menu.ml-5 {
+    text-align: center;
+}
+
+#bar {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+@media (max-width: 990px) { 
+    .navbar {
+        position: unset;
+    }
+
+    #icons {
+        display: none;
+    }
+
+    .bg-light .navbar-toggler:hover {
+        background-color: var(--red);
+    }
+}
+
+/* End header */
+
+/* Footer */
+footer {
+    margin-top: 100px;
+}
+
+footer .shop-info {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+footer .shop-info .about-info {
+    text-align: center;
+}
+
+footer .shop-info .about-info h3 {
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+footer .shop-info .about-info p {
+    font-size: 16px;
+    color: var(--grey);
+}
+
+footer .shop-info .about-info p span {
+    font-weight: 600;
+}
+
+footer .content-creater {
+    background-color: #333333;
+}
+
+footer .content-creater p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+/* End Footer */
