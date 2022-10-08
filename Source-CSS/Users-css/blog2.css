@@ -84,7 +84,6 @@
 }
 
 .info-1 > .info-content{
-    float: left;
     margin-top: 12%;
     margin-right: 10px;
     margin-left: 50px;
@@ -136,16 +135,21 @@
       }
 
       .info-1 > .info-content {
-            margin-left: -85px;
-            margin-bottom: 20px;
+            margin-left: 0;
+            margin-right: -100px;
+      }
+
+      .info-2 {
+            width: 100%;
+            margin-bottom: 350px;
       }
 
       .info-2 img {
             width: 100%;
-      }
+      } 
 
       .info-2 > .info-content {
-            margin-left: -85px;
+            margin-left: 0;
       }
 }
 
